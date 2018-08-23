@@ -1,6 +1,11 @@
 //Init Github
 
-const github = new GitHub
+const github = new GitHub;
+
+
+//Init UI
+
+const ui = new UI; 
 
 // Search input
 
@@ -22,7 +27,7 @@ searchUser.addEventListener('keyup', (e) => {
       }else{
         //Show the profile
       }
-    })
+    });
   }else{
     //Clear profile
   }
